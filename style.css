@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+.box {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    align-items: left;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.texts {
+    margin-left: 150px;
+}
+.text1 {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 36%, 70%);
+    text-align: left;
+}
+.text2 {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+}
+.text3 {
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: hsl(0, 36%, 70%)
+}
+form {
+    display: flex;
+    margin-top: 40px;
+}
+.inputprogram {
+    width: 430px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 36%, 70%);;;
+    background-color: transparent;
+}
+button {
+    width: 100px;
+    height: 44px;
+    border-radius: 20px;
+    border: transparent;
+    position: relative;
+    right: 100px;
+    background-color :hsl(0, 36%, 70%);
+    box-shadow: 2px 2px 8px hsl(0, 36%, 70%);;
+
+    cursor: pointer;
+}
+.hiddediv {
+    color: red;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: none;
+}
+.error {
+    height: 20px;
+    position: relative;
+    right: 120px;
+    top: 12px;
+    display: none;
+} 
+p {
+    margin-top: 30px;
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%)
+}
